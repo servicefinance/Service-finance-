@@ -1,34 +1,106 @@
-# Gradle files
-.gradle/
-build/
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>service_finance - Accompagnement financier</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+        header {
+            background-color: #1f3c88;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #1f3c88;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #1f3c88;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #1f3c88;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
 
-# Local configuration file (sdk path, etc)
-local.properties
+<header>
+    <h1>service_finance</h1>
+    <p>Accompagnement et conseils pour vos projets financiers</p>
+</header>
 
-# Log/OS Files
-*.log
+<section>
+    <h2>À propos</h2>
+    <p>
+        <strong>service_finance</strong> accompagne les particuliers et porteurs de projets
+        dans la gestion, la planification et l’amélioration de leurs finances.
+        Notre objectif est de vous aider à prendre de meilleures décisions financières.
+    </p>
+</section>
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+<section>
+    <h2>Nos services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Accompagnement financier</h3>
+            <p>Aide personnalisée pour organiser vos projets financiers et définir des objectifs clairs.</p>
+        </div>
+        <div class="card">
+            <h3>Conseils financiers</h3>
+            <p>Conseils simples et compréhensibles pour mieux gérer votre budget et vos dépenses.</p>
+        </div>
+        <div class="card">
+            <h3>Aide aux projets</h3>
+            <p>Assistance pour lancer et structurer vos projets financiers personnels ou professionnels.</p>
+        </div>
+    </div>
+</section>
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+<section>
+    <h2>Pourquoi nous choisir ?</h2>
+    <ul>
+        <li>Approche claire et pédagogique</li>
+        <li>Accompagnement personnalisé</li>
+        <li>Conseils accessibles à tous</li>
+    </ul>
 
-# Keystore files
-*.jks
-*.keystore
+    <a href="#" class="btn">Nous contacter</a>
+</section>
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+<footer>
+    <p>© 2025 service_finance – Tous droits réservés</p>
+</footer>
 
-# Android Profiling
-*.hprof
+</body>
+</html>
